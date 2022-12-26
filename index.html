@@ -17,9 +17,10 @@
                 <li class="topmenu__item"><a href=""><img src="./img/logo.png" alt="logo" class="header__logo"></a></li>
                 <li class="submenu-link topmenu__item"><button>Projects</button>
                     <ul class="submenu">
-                        <li class="submenu__item"><a href="index.html">Task 1 (object)</a></li>
-                        <li class="submenu__item"><a href="column.html">Task 2 (column)</a></li>
-                        <li class="submenu__item"><a href="gradient.html">Task 3 (gradient)</a></li>
+                        <li class="submenu__item"><a href="index.html">Task 1 (timer)</a></li>
+                        <li class="submenu__item"><a href="object.html">Task 2 (object)</a></li>
+                        <li class="submenu__item"><a href="column.html">Task 3 (column)</a></li>
+                        <li class="submenu__item"><a href="gradient.html">Task 4 (gradient)</a></li>
                     </ul>
                 </li>
                 <li class="topmenu__item"><button><a href="#footer">Contacts</a></button></li>
@@ -27,21 +28,15 @@
         </nav>
     </header>
 
-    <div class="objectsBg container">
-        <h1 class="object__title">Deep object comparison</h1>
-        <h2 class="object__info">Write two objects or arrays</h2>
-        <h2 class="object__example">Example: { "a": 1, "b": { "c": 1 }, "d": [1, 2] }</h2>
-        <div class="objects">
-            <div class="object firstObj">
-                <label for="obj1">First object:</label>
-                <textarea name="obj1" id="obj1" placeholder="Don't forget these symbols: '{', ':', ',', '&quot;', '}' !"></textarea>
-            </div>
-            <div class="object secondObj">
-                <label for="obj2">Second object:</label>
-                <textarea name="obj2" id="obj2" placeholder="Don't forget these symbols: '{', ':', ',', '&quot;', '}' !"></textarea>
-            </div>
+    <div class="container">
+        <h1 class="timerTitle">You can set the timer</h1>
+        <div class="timerInfo">
+            <label for="timer">Set the timer:</label>
+            <input type="text" name="timer" id="timer" placeholder="Any number">
+            <label for="timer">s</label>
         </div>
-        <div class="objectComment"></div>
+        <button class="timerBtn sample_btn">Enjoy</button>
+        <div class="timerCount"></div>
     </div>
 
     <footer id="footer">
@@ -54,7 +49,7 @@
         </div>
     </footer>
 
-    <script src="./object.js"></script>
+    <script src="./timer.js"></script>
 </body>
 
 </html>

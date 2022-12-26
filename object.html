@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <title>my_study_project</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="topmenu">
+                <li class="topmenu__item"><a href=""><img src="./img/logo.png" alt="logo" class="header__logo"></a></li>
+                <li class="submenu-link topmenu__item"><button>Projects</button>
+                    <ul class="submenu">
+                        <li class="submenu__item"><a href="index.html">Task 1 (timer)</a></li>
+                        <li class="submenu__item"><a href="object.html">Task 2 (object)</a></li>
+                        <li class="submenu__item"><a href="column.html">Task 3 (column)</a></li>
+                        <li class="submenu__item"><a href="gradient.html">Task 4 (gradient)</a></li>
+                    </ul>
+                </li>
+                <li class="topmenu__item"><button><a href="#footer">Contacts</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="objectsBg container">
+        <h1 class="object__title">Deep object comparison</h1>
+        <h2 class="object__info">Write two objects or arrays</h2>
+        <h2 class="object__example">Example: { "a": 1, "b": { "c": 1 }, "d": [1, 2] }</h2>
+        <div class="objects">
+            <div class="object firstObj">
+                <label for="obj1">First object:</label>
+                <textarea name="obj1" id="obj1" placeholder="Don't forget these symbols: '{', ':', ',', '&quot;', '}' !"></textarea>
+            </div>
+            <div class="object secondObj">
+                <label for="obj2">Second object:</label>
+                <textarea name="obj2" id="obj2" placeholder="Don't forget these symbols: '{', ':', ',', '&quot;', '}' !"></textarea>
+            </div>
+        </div>
+        <div class="objectComment"></div>
+    </div>
+
+    <footer id="footer">
+        <div class="footerContacts">
+            <div class="myInfo mail"><a href="mailto: masha.vasutina.1998@gmail.com">masha.vasutina.1998@gmail.com</a>
+            </div>
+            <div class="myInfo phone"><a href="tel: +7(977)958-04-42">+7(977)958-04-42</a></div>
+            <div class="myInfo git"><a href="https://github.com/kykyry">Kykyry</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./object.js"></script>
+</body>
+
+</html>
